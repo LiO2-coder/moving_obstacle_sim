@@ -1,0 +1,11 @@
+<launch>
+  <arg name="config" default="pkg://moving_obstacle_sim/config/moving_obstacles_demo.yaml" />
+  <arg name="reference_frame" default="world" />
+  <arg name="delete_if_exists" default="false" />
+
+  <node pkg="moving_obstacle_sim" type="spawn_moving_obstacles.py" name="spawn_moving_obstacles" output="screen">
+    <param name="config" value="$(arg config)" />
+    <param name="reference_frame" value="$(arg reference_frame)" />
+    <param name="delete_if_exists" value="$(arg delete_if_exists)" />
+  </node>
+</launch>
