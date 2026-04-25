@@ -1,0 +1,141 @@
+obstacles:
+  - name: obs_line_box
+    enabled: true
+    shape:
+      type: box
+      mass: 3.0
+      box_size: [0.6, 0.4, 1.0]
+      color_rgba: [0.85, 0.2, 0.2, 1.0]
+    pose:
+      xyz: [2.0, 0.0, 0.5]
+      rpy: [0.0, 0.0, 0.0]
+    motion:
+      enabled: true
+      type: line
+      speed: 0.7
+      mode: ping_pong
+      align_yaw: true
+      z_lock: true
+      bounds:
+        enabled: false
+        x_min: -10.0
+        x_max: 10.0
+        y_min: -10.0
+        y_max: 10.0
+      line:
+        p0: [2.0, -2.0]
+        p1: [2.0, 2.0]
+
+  - name: obs_sine_cylinder
+    enabled: true
+    shape:
+      type: cylinder
+      mass: 2.0
+      radius: 0.25
+      length: 1.0
+      color_rgba: [0.2, 0.75, 0.25, 1.0]
+    pose:
+      xyz: [-2.0, 0.0, 0.5]
+      rpy: [0.0, 0.0, 0.0]
+    motion:
+      enabled: true
+      type: sine
+      speed: 0.5
+      mode: loop
+      align_yaw: true
+      z_lock: true
+      bounds:
+        enabled: false
+        x_min: -10.0
+        x_max: 10.0
+        y_min: -10.0
+        y_max: 10.0
+      sine:
+        axis: x
+        x_min: -4.0
+        x_max: 1.0
+        center: 0.0
+        amplitude: 1.0
+        wavelength: 3.0
+        phase: 0.0
+
+  - name: obs_circle_sphere
+    enabled: true
+    shape:
+      type: sphere
+      mass: 1.5
+      radius: 0.35
+      color_rgba: [0.2, 0.35, 0.9, 1.0]
+    pose:
+      xyz: [0.0, 3.0, 0.35]
+      rpy: [0.0, 0.0, 0.0]
+    motion:
+      enabled: true
+      type: circle
+      speed: 0.8
+      mode: loop
+      align_yaw: true
+      z_lock: true
+      bounds:
+        enabled: false
+        x_min: -10.0
+        x_max: 10.0
+        y_min: -10.0
+        y_max: 10.0
+      circle:
+        center: [0.0, 3.0]
+        radius: 1.5
+        clockwise: false
+        theta0: 0.0
+
+  - name: obs_static_box
+    enabled: true
+    shape:
+      type: box
+      mass: 4.0
+      box_size: [0.8, 0.8, 1.2]
+      color_rgba: [0.8, 0.8, 0.8, 1.0]
+    pose:
+      xyz: [4.0, 0.0, 0.6]
+      rpy: [0.0, 0.0, 0.0]
+    motion:
+      enabled: false
+      type: static
+      speed: 0.0
+      mode: once
+      align_yaw: false
+      z_lock: true
+      bounds:
+        enabled: false
+        x_min: -10.0
+        x_max: 10.0
+        y_min: -10.0
+        y_max: 10.0
+
+  - name: obs_polygon_cylinder
+    enabled: true
+    shape:
+      type: cylinder
+      mass: 2.0
+      radius: 0.2
+      length: 1.0
+      color_rgba: [0.95, 0.7, 0.1, 1.0]
+    pose:
+      xyz: [-3.0, -2.0, 0.5]
+      rpy: [0.0, 0.0, 0.0]
+    motion:
+      enabled: true
+      type: polygon
+      speed: 0.6
+      mode: ping_pong
+      align_yaw: true
+      z_lock: true
+      bounds:
+        enabled: false
+        x_min: -10.0
+        x_max: 10.0
+        y_min: -10.0
+        y_max: 10.0
+      polygon:
+        points: [[-3.0, -2.0], [-1.0, -2.0], [-1.0, -4.0], [-3.0, -4.0]]
+        close_loop: true

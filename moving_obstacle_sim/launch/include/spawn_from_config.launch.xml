@@ -1,0 +1,11 @@
+<launch>
+  <arg name="obstacles_config" default="pkg://moving_obstacle_sim/config/moving_obstacles_demo.yaml" />
+  <arg name="reference_frame" default="world" />
+  <arg name="delete_if_exists" default="false" />
+
+  <include file="$(find moving_obstacle_sim)/launch/spawn_moving_obstacles.launch">
+    <arg name="config" value="$(arg obstacles_config)" />
+    <arg name="reference_frame" value="$(arg reference_frame)" />
+    <arg name="delete_if_exists" value="$(arg delete_if_exists)" />
+  </include>
+</launch>

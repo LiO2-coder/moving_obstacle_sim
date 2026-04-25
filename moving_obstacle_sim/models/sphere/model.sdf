@@ -1,0 +1,39 @@
+<sdf version="1.6">
+  <model name="moving_sphere_template">
+    <pose>0 0 0.3 0 0 0</pose>
+    <static>false</static>
+    <link name="body">
+      <gravity>false</gravity>
+      <kinematic>true</kinematic>
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.036</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>0.036</iyy>
+          <iyz>0.0</iyz>
+          <izz>0.036</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <sphere>
+            <radius>0.3</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <sphere>
+            <radius>0.3</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.2 0.4 0.95 1.0</ambient>
+          <diffuse>0.2 0.4 0.95 1.0</diffuse>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
