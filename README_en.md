@@ -159,16 +159,9 @@ obstacles:
 ```
 
 ## 7. Screenshot Placeholders
-
-Put screenshots under `docs/images/`, then enable these references:
-
-```markdown
 ![Gazebo runtime](docs/images/screenshot_gazebo.png)
-![Multi-obstacle trajectories](docs/images/screenshot_trajectories.png)
-![LaserScan observation](docs/images/screenshot_laserscan.png)
-```
 
-The repository already includes `docs/images/.gitkeep`.
+
 
 ## 8. Quick Checks
 
