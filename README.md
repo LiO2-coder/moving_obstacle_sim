@@ -187,17 +187,11 @@ obstacles:
         close_loop: true
 ```
 
-## 7. 运行截图（预留位置）
+## 7. 运行截图
 
-你可以把截图放到 `docs/images/` 目录，然后取消下面注释：
-
-```markdown
 ![Gazebo运行截图](docs/images/screenshot_gazebo.png)
-![多障碍物轨迹截图](docs/images/screenshot_trajectories.png)
-![激光雷达观测截图](docs/images/screenshot_laserscan.png)
-```
 
-当前仓库已预留目录：`docs/images/.gitkeep`。
+
 
 ## 8. 常见验证
 
