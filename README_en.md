@@ -2,9 +2,7 @@
 
 [中文版说明](./README.md)
 
-`moving_obstacle_sim` is a standalone **ROS1 Noetic + Gazebo11** package for dynamic obstacle simulation.
-It focuses on obstacle generation/control only, does not depend on other business packages in this workspace,
-and can be directly reused by other ROS packages.
+`moving_obstacle_sim` is a standalone **ROS1 Noetic + Gazebo11** package for dynamic obstacle simulation.It focuses on obstacle generation/control.
 
 ## 1. Features
 
@@ -48,7 +46,7 @@ moving_obstacle_sim/
   config/moving_obstacles_all_modes.yaml    # all-motion sample
   models/                                   # reference SDF templates
   urdf/primitive_obstacles.urdf.xacro       # URDF/xacro compatibility template
-  docs/images/                              # screenshot placeholder folder
+  docs/images/                              # screenshot
 ```
 
 ## 3. Requirements
