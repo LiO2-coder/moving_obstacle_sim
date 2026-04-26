@@ -46,7 +46,7 @@ moving_obstacle_sim/
   config/moving_obstacles_all_modes.yaml    # 全模式示例
   models/                                   # 参考模板SDF
   urdf/primitive_obstacles.urdf.xacro       # URDF/xacro兼容模板
-  docs/images/                              # README截图占位目录
+  docs/images/                              # 截图
 ```
 
 ## 3. 环境要求
