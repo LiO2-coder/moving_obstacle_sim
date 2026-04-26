@@ -2,8 +2,7 @@
 
 [English Version](./README_en.md)
 
-`moving_obstacle_sim` 是一个 **ROS1 Noetic + Gazebo11** 的动态障碍物独立软件包。
-它只负责在 Gazebo 中生成/控制障碍物，不依赖本工作区中的其他业务包，可被任意其他 ROS 包直接调用。
+`moving_obstacle_sim` 是一个 **ROS1 Noetic + Gazebo11** 的动态障碍物软件包，可以在 Gazebo 中生成和控制障碍物。
 
 ## 1. 项目特性
 
