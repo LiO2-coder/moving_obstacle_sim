@@ -1,4 +1,8 @@
 # moving_obstacle_sim
+[![ROS1](https://img.shields.io/badge/ROS1-Noetic-blue.svg)](https://wiki.ros.org/noetic)
+[![Linux platform](https://img.shields.io/badge/platform-Ubuntu-27AE60.svg)](https://releases.ubuntu.com/20.04/)
+[![license](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Linux platform](https://img.shields.io/badge/platform-linux--64-orange.svg)](https://releases.ubuntu.com/20.04/)
 
 [中文版说明](./README.md)
 
