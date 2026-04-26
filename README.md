@@ -3,6 +3,7 @@
 [![Linux platform](https://img.shields.io/badge/platform-Ubuntu-27AE60.svg)](https://releases.ubuntu.com/20.04/)
 [![license](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Linux platform](https://img.shields.io/badge/platform-linux--64-orange.svg)](https://releases.ubuntu.com/20.04/)
+
 [English Version](./README_en.md)
 
 `moving_obstacle_sim` 是一个 **ROS1 Noetic + Gazebo11** 的动态障碍物软件包，可以在 Gazebo 中生成和控制障碍物。
