@@ -162,6 +162,7 @@ obstacles:
 
 ## 7. Screenshot Placeholders
 ![Gazebo runtime](docs/images/screenshot_gazebo.png)
+![LaserScan observation](docs/images/screenshot_laserscan.png)
 
 
 
