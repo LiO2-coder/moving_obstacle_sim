@@ -193,6 +193,7 @@ obstacles:
 ## 7. 运行截图
 
 ![Gazebo运行截图](docs/images/screenshot_gazebo.png)
+![激光雷达观测截图](docs/images/screenshot_laserscan.png)
 
 
 
