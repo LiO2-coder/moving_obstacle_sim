@@ -247,7 +247,7 @@ rostopic echo -n 1 /gazebo/model_states
 
 如果您在使用过程中遇到任何问题，可以通过以下方式联系：
 
-- GitHub Issues: [项目 Issues 页面](https://github.com/LiO2-coder/EasyFilter/issues)
+- GitHub Issues: [项目 Issues 页面](https://github.com/LiO2-coder/moving_obstacle_sim/issues)
 
 ---
 
