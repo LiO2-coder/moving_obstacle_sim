@@ -60,7 +60,7 @@ moving_obstacle_sim/
 - Gazebo11（Gazebo Classic）
 - Catkin 工作空间
 
-## 4. 部署步骤（发布到 GitHub 后可直接用）
+## 4. 部署步骤
 
 以下流程适用于首次拉取并部署。
 
