@@ -60,7 +60,7 @@ moving_obstacle_sim/
 - Gazebo11 (Gazebo Classic)
 - Catkin workspace
 
-## 4. Deployment (for GitHub users)
+## 4. Deployment
 
 1. Create workspace and clone repo
 
