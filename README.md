@@ -218,3 +218,38 @@ rostopic echo -n 1 /gazebo/model_states
 - `circle.radius <= 0`
 - `ellipse.a <= 0` 或 `ellipse.b <= 0`
 - 多边形点数量不足或退化
+
+
+## 9. TODO: 开发计划(作者给自己画饼)
+### 开发GUI版本
+### 动态添加和设置移动障碍物
+
+## 贡献
+
+欢迎提交 Issue 和 Pull Request！对于新功能建议或问题反馈，请创建 GitHub Issue。
+
+## 许可证
+
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+
+## 作者
+
+
+- **GitHub**: [https://github.com/LiO2-coder](https://github.com/LiO2-coder)
+
+## 版本历史
+
+- **v1.0** - 初始版本发布
+  - 实现三种几何体的六种运动控制
+  - 提供完整的说明文档和示例
+
+## 支持
+
+如果您在使用过程中遇到任何问题，可以通过以下方式联系：
+
+- GitHub Issues: [项目 Issues 页面](https://github.com/LiO2-coder/EasyFilter/issues)
+
+---
+
+⭐ 如果这个项目对您有帮助，请给个Star！
+
